@@ -1,0 +1,20 @@
+.new__container {
+  display: flex;
+  justify-content: center;
+}
+
+.new__expense-btn {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  background-color: #42045f;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  margin-right: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.new__container button:hover {
+  background-color: #670694fe;
+}

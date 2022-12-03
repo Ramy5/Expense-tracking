@@ -1,0 +1,17 @@
+.expense__filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.expense__filter .expense__filter-select {
+  font-size: 1.3rem;
+  padding: 8px 2.5rem;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}

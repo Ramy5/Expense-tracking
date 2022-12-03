@@ -1,0 +1,56 @@
+.expense__form .form__inputs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.expense__form .form__inputs div {
+  width: 300px;
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.expense__form .form__inputs label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: rgba(#000, 0.8);
+}
+
+.expense__form .form__inputs input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+.expense__form .btn__form {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.new__btn-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expense__form .btn__form button {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  background-color: #42045f;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  margin-right: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.expense__form .btn__form button:hover {
+  background-color: #670694fe;
+}
